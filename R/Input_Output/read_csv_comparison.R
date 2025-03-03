@@ -26,7 +26,7 @@ measure_time <- function(method, load_function) {
 
 # MAIN --------------------------------------------------------------------
 
-setwd(data_d)
+setwd(data_dir)
 measure_time("read.csv", read.csv)
 measure_time("readr::read_csv", read_csv)
 measure_time("data.table::fread", fread)
