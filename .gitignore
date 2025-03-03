@@ -1,0 +1,18 @@
+# Ignorar el archivo CSV grande
+data/csv/creditcard.csv
+
+# Ignorar archivos generados por R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos comprimidos
+*.zip
+*.gz
