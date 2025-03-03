@@ -11,8 +11,8 @@ csv_file <- "creditcard.csv"
 # DEFINITIONS --------------------------------------------------------------------
 
 times_df <- data.frame(
-  Método = character(),
-  Tiempo = numeric(),
+  Method = character(),
+  Time = numeric(),
   stringsAsFactors = FALSE
 )
 
